@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Righteous', cursive;
+
+    font-size: 100%;
+
+}
+
+
+.container{
+    width: 100vw;
+    height: 90vh;
+    background-color: #FFF2E7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+h1, h3{
+    font-family: 'Sarala', sans-serif;
+}
+
+input{
+    padding-left: 2rem;
+    width: 80%;
+    height: 67px;
+    border:none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2F2325;
+}
+
+button{
+    background-color: #ECD6C4;
+
+    Width: 100px;
+    height: 67px;
+    border:none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2F2325;
+
+}
+button:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+header, footer{
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    color: #FFF2E7;
+    height: 5vh;
+}
