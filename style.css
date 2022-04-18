@@ -35,8 +35,13 @@ body{
     width: 50vw;
     height: 100%;
     align-items: flex-start;
+    
 
 }
+.container-text  h3{
+    padding-bottom: 5%;
+}
+
 .container-champs{
     display: flex;
     flex-direction: column;
@@ -49,24 +54,54 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 222px;
+    min-width: 600px;
     margin: 4rem 0 4rem 0;
 }
 #badchamps{
     display: flex;
     flex-direction: column;
     min-height: 222px;
+    min-width: 600px;
+    align-content: center;
+    justify-content: center;
+
     margin: 0rem 0 4rem 0;
 
 }
-h3{
+#badchamps h3, #goodchamps h3{
+text-align: center;
+padding: 0 100px 20px 0;
+
+}
+.championsicons{
+    min-width: 700px;
+}
+#formgood, #formbad{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+
+}
+
+
+
+.container img{
+padding: 10px;
+
+}
+
+.title{
+    border-top: 2px solid #2F2325;
+    padding-top: 5.5rem;
     font-family: 'Sarala', sans-serif;
 }
 
 
-input{
+input[type="text"]{
+
     padding-left: 2rem;
-    width: 80%;
-    max-width: 490px;
+    width: 84%;
+    min-width: 580px;
     height: 67px;
     border:none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
@@ -78,6 +113,7 @@ input{
 }
 
 button{
+    position: absolute;
     background-color: #ECD6C4;
     Width: 100px;
     height: 67px;
@@ -88,7 +124,6 @@ button{
     font-weight: 400;
     font-size: 20px;
     color: #2F2325;
-
 }
 button:hover{
     background-color: rgba(236, 214, 196, 0.53);
@@ -100,4 +135,14 @@ header, footer{
     background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
     color: #FFF2E7;
     height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+
+header{
+
 }

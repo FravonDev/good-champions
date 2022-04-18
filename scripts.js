@@ -81,7 +81,7 @@ function printChamp(input){
 
                     }
 
-                    console.log('AA')
+                    console.log('remove one champion and try again')
 
 
                     
