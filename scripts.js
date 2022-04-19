@@ -73,6 +73,8 @@ function printChamp(input){
 
                     let image = document.createElement('img')
                     image.src = imageObjectURL
+                    image.setAttribute("class","icons")
+                    image.setAttribute("onclick","this.remove()")
 
                     let container = document.getElementById("goodchampicons")
                     console.log(container.lastElementChild)
@@ -125,6 +127,9 @@ function printChamp2(input){
 
                     let image = document.createElement('img')
                     image.src = imageObjectURL
+                    image.setAttribute("class","icons")
+                    image.setAttribute("onclick","this.remove()")
+
 
                     let container = document.getElementById("badchampicons")
                     console.log(container.lastElementChild)

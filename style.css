@@ -75,7 +75,17 @@ padding: 0 100px 20px 0;
 }
 .championsicons{
     min-width: 700px;
+
+      
+    
+
 }
+.championsicons img{
+
+}
+
+
+
 #formgood, #formbad{
     display: flex;
     flex-direction: row;
@@ -83,11 +93,13 @@ padding: 0 100px 20px 0;
 
 }
 
-
-
 .container img{
 padding: 10px;
 
+}
+
+.icons{
+    border-radius: 20px;
 }
 
 .title{
@@ -100,22 +112,24 @@ padding: 10px;
 input[type="text"]{
 
     padding-left: 2rem;
-    width: 84%;
-    min-width: 580px;
+    width: 76%;
+    min-width: 550px;
     height: 67px;
     border:none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     color: #2F2325;
+    margin-right: 20px;
 }
 
 button{
+    transition: 0.3s ease;
     position: absolute;
     background-color: #ECD6C4;
-    Width: 100px;
+    Width: 120px;
     height: 67px;
     border:none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
@@ -127,11 +141,20 @@ button{
 }
 button:hover{
     background-color: rgba(236, 214, 196, 0.53);
+    
 }
 
+header{
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    color: #FFF2E7;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+}
 
-
-header, footer{
+footer{
     background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
     color: #FFF2E7;
     height: 5vh;
@@ -140,9 +163,5 @@ header, footer{
     align-items:center;
     justify-content: space-around;
     padding: 24px;
-}
-
-
-header{
-
+    
 }
